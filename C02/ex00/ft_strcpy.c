@@ -23,6 +23,7 @@ char	*ft_strcpy(char *dest, char *scr)
 		dest[c] = scr[c];
 		c++;
 	}
+	dest = '\0';
 	return (dest);
 }
 
